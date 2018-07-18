@@ -27,3 +27,11 @@ actually visit the link or if that tweet provides enough context for the convers
 Most probably, other solutions are better, like doing it as an XMPP server component,
 this way the user could request for the feature or not. As it is right now, the image is sent to all the participants,
 which can be not desired.
+
+
+## Comments
+This is just a bit messy and temporary solution I use and share it in case there is someone with the same needs and can duplicate the setup.
+There are things to improve like avoiding to place the bot along with the HTTP Upload files. When the plugin was written, verse (Riddim's XMPP library) didn't have support for HTPP Upload, so the bot had no built-in way to upload files.
+There is also the issue that apparently, http://phantomjs.org 's activity has stopped and probably other solutions like https://slimerjs.org/ could be used. 
+
+Right now I leave it as is because I don't have the need to improve it (yet).
